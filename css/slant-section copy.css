@@ -1,0 +1,153 @@
+.one-is-active .slant-section-one {
+    width: 50%;
+}
+
+.one-is-active .slant-section-two {
+    width: 25%;
+}
+
+.one-is-active .slant-section-three {
+    width: 25%;
+}
+
+
+.two-is-active .slant-section-one {
+    width: 25%;
+}
+
+.two-is-active .slant-section-two {
+    width: 50%;
+}
+
+.two-is-active .slant-section-three {
+    width: 25%;
+}
+
+
+.three-is-active .slant-section-one {
+    width: 25%;
+}
+
+.three-is-active .slant-section-two {
+    width: 25%;
+}
+
+.three-is-active .slant-section-three {
+    width: 50%;
+}
+
+.slant-container {
+    width: 100%;
+    height: calc(60vh - 40px);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    ;
+    /* margin-left: -50px; */
+}
+
+.slant-section-one {
+    width: 30%;
+    height: 100%;
+    background: #666;
+    transform: skew(-9deg);
+    z-index: 1;
+    transition: width 0.5s;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("./../resources/accessoris-display.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .slant-section-one:before {
+    content: "";
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background: #666;
+    top: 0;
+    left: 0;
+    transform: skew(9deg);
+    z-index: -1;
+} */
+
+.slant-section-two {
+    width: 40%;
+    height: 100%;
+    background: #999;
+    transform: skew(-9deg);
+    z-index: 1;
+    transition: width 0.5s;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("./../resources/headlights-display.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+}
+
+/* .slant-section-two:after {
+    content: "";
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    background: #999;
+    top: 0;
+    right: 0;
+    transform: skew(9deg);
+    z-index: -1;
+} */
+
+
+.slant-section-three {
+    width: 30%;
+    float: left;
+    height: 100%;
+    background: #0d0d0d;
+    transform: skew(-9deg);
+    position: relative;
+    z-index: 1;
+    transition: width 0.5s;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("./../resources/silver-ace-taxi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .slant-section-three:after {
+    content: "";
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background: #0d0d0d;
+    top: 0;
+    right: 0;
+    transform: skew(9deg);
+    z-index: -100 !important;
+} */
+
+.slant-content {
+    transform: skew(9deg);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    left: auto;
+    right: auto;
+    transform: rotate(-180deg);
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
