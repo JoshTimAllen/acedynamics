@@ -197,3 +197,28 @@ body {
     padding-bottom: 150px;
     border-bottom: 1px solid grey;
 }
+
+
+
+
+
+@media (max-width: 590px) {
+
+    .main-heading {
+        flex-direction: column;
+    }
+
+    .main-heading img {
+        height: 30px;
+    }
+
+    .top-nav .social-menu {
+        display: none;
+    }
+
+    .main-cta .social-menu {
+        margin-top: -100px;
+        display: flex !important;
+        justify-content: center;
+    }
+}

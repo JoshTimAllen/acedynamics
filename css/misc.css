@@ -304,6 +304,11 @@ footer {
     margin-top: 20px;
 }
 
+footer .social-menu {
+    justify-content: center;
+    /* text-align: center; */
+}
+
 @media (max-width: 1000px) {
     .footer-content {
         flex-direction: column;
