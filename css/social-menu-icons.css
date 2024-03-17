@@ -1,9 +1,13 @@
 .social-menu {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 70%;
     justify-content: end;
+}
+
+.justify-centre {
+    display: flex;
+    justify-content: center !important;
 }
 
 .social-menu ul {
@@ -19,14 +23,14 @@
     padding: 10px;
 }
 
-.social-menu ul li .fab {
+.social-menu ul li .fa-icon {
     font-size: 20px;
     line-height: 35px;
     transition: .3s;
     color: #ffffff;
 }
 
-.social-menu ul li .fab:hover {
+.social-menu ul li .fa-icon:hover {
     color: #fff;
 }
 
@@ -47,21 +51,25 @@
     transform: translate(0, -10%);
 }
 
-.social-menu ul li:nth-child(1) a:hover {
+.black-hover:hover {
     background-color: rgba(0, 0, 0, 0.829);
     /* border: 1px solid rgba(255, 255, 255, 0); */
 }
 
-.social-menu ul li:nth-child(2) a:hover {
+.red-hover:hover {
     background-color: #E4405F;
     border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.social-menu ul li:nth-child(3) a:hover {
+.blue-hover:hover {
     background-color: #0077b5;
     border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.social-menu ul li:nth-child(4) a:hover {
-    background-color: #000;
+.green-hover:hover {
+    background-color: #008020;
+}
+
+.grey-hover:hover {
+    background-color: #b7a800;
 }
